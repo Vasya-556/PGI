@@ -1,0 +1,73 @@
+﻿<Window x:Class="lab_11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab_11"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ToolBar HorizontalAlignment="Left" Height="42" Margin="181,143,0,0" VerticalAlignment="Top" Width="322">
+            <Button Click="b1">
+                <Image x:Name="i1" Source="C:\Users\vkobr\OneDrive\Робочий стіл\ПГІ\C#\WPF\lab-12\lab-11\1.jpg" />
+                <Button.ToolTip>
+                    <ToolTip>
+                        закрити вікно
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+            <CheckBox Checked="c2c" Unchecked="c2u">
+                <Image x:Name="i2" Source="C:\Users\vkobr\OneDrive\Робочий стіл\ПГІ\C#\WPF\lab-12\lab-11\2.jpg"/>
+                <CheckBox.ToolTip>
+                    <ToolTip>
+                        заблокувати кнопку
+                    </ToolTip>
+                </CheckBox.ToolTip>
+            </CheckBox>
+            <CheckBox x:Name="ch1" Loaded="CheckBox_Loaded" Checked="c3c" Unchecked="c3u">
+                <Image x:Name="i3" Source="C:\Users\vkobr\OneDrive\Робочий стіл\ПГІ\C#\WPF\lab-12\lab-11\3.jpg"/>
+                <CheckBox.ToolTip>
+                    <ToolTip>
+                        кнопка Р – доступна
+                    </ToolTip>
+                </CheckBox.ToolTip>
+            </CheckBox>
+            <Button x:Name="btn4" Click="b4">
+                <Image x:Name="i4" Source="C:\Users\vkobr\OneDrive\Робочий стіл\ПГІ\C#\WPF\lab-12\lab-11\4.jpg"/>
+                <Button.ToolTip>
+                    <ToolTip>
+                        напис на панелі
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+            <RadioButton x:Name="rb1" Loaded="RadioButton_Loaded" Checked="r5">
+                <Image x:Name="i5" Source="C:\Users\vkobr\OneDrive\Робочий стіл\ПГІ\C#\WPF\lab-12\lab-11\5.jpg"/>
+                <RadioButton.ToolTip>
+                    <ToolTip>
+                        колір панелі – стандартний
+                    </ToolTip>
+                </RadioButton.ToolTip>
+            </RadioButton>
+            <RadioButton Checked="r6" >
+                <Image x:Name="i6" Source="C:\Users\vkobr\OneDrive\Робочий стіл\ПГІ\C#\WPF\lab-12\lab-11\6.jpg"/>
+                <RadioButton.ToolTip>
+                    <ToolTip>
+                        колір панелі – червоний
+                    </ToolTip>
+                </RadioButton.ToolTip>
+            </RadioButton>
+            <RadioButton Checked="r7">
+                <Image x:Name="i7" Source="C:\Users\vkobr\OneDrive\Робочий стіл\ПГІ\C#\WPF\lab-12\lab-11\7.jpg"/>
+                <RadioButton.ToolTip>
+                    <ToolTip>
+                        колір панелі – жовтий
+                    </ToolTip>
+                </RadioButton.ToolTip>
+            </RadioButton>
+        </ToolBar>
+        <Button x:Name="btn1" Content="Button" HorizontalAlignment="Left" Margin="313,255,0,0" VerticalAlignment="Top"/>
+        <StackPanel x:Name="p1" Margin="400,250,150,100">
+            <Label x:Name="txt" Content=""/>
+        </StackPanel>
+    </Grid>
+</Window>

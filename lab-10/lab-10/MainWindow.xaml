@@ -1,0 +1,26 @@
+﻿<Window x:Class="lab_10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab_10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <GroupBox Header="" HorizontalAlignment="Left" Height="132" Margin="114,124,0,0" VerticalAlignment="Top" Width="188">
+            <StackPanel>
+                <CheckBox x:Name="ch1" Content="button - not avaiable" Margin="10,20,0,0" Checked="CH1" Unchecked="CH3"/>
+                <CheckBox x:Name="ch2" Content="panel - visible" Margin="10,20,0,0" IsChecked="True" Checked="CH2" Unchecked="CH4"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="Panel Color" HorizontalAlignment="Left" Height="93" Margin="447,124,0,0" VerticalAlignment="Top" Width="168">
+            <StackPanel>
+                <RadioButton Content="Standart" HorizontalAlignment="Left" Height="15" Margin="10,10,0,0" Width="108" IsChecked="True" Checked="RB1"/>
+                <RadioButton Content="Red" HorizontalAlignment="Left" Height="15" Margin="10,5,0,0" Width="108" Checked="RB2"/>
+                <RadioButton Content="Yellow" HorizontalAlignment="Left" Height="15" Margin="10,5,0,0" Width="108" Checked="RB3"/>
+            </StackPanel>
+        </GroupBox>
+        <Button x:Name="bt1" Content="Button" HorizontalAlignment="Left" Margin="194,328,0,0" VerticalAlignment="Top" IsEnabled="True"/>
+        <StackPanel Margin="400,300,200,50"  x:Name="pn1" Visibility="Visible" Background="White"/>
+    </Grid>
+</Window>
