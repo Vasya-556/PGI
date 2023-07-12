@@ -1,0 +1,10 @@
+C:\Users\vkobr\OneDrive\Робочий стіл\ПГІ\C#\Forms\lab-11\lab-11\bin\Debug\lab-11.exe.config
+C:\Users\vkobr\OneDrive\Робочий стіл\ПГІ\C#\Forms\lab-11\lab-11\bin\Debug\lab-11.exe
+C:\Users\vkobr\OneDrive\Робочий стіл\ПГІ\C#\Forms\lab-11\lab-11\bin\Debug\lab-11.pdb
+C:\Users\vkobr\OneDrive\Робочий стіл\ПГІ\C#\Forms\lab-11\lab-11\obj\Debug\lab-11.csproj.AssemblyReference.cache
+C:\Users\vkobr\OneDrive\Робочий стіл\ПГІ\C#\Forms\lab-11\lab-11\obj\Debug\lab_11.Form1.resources
+C:\Users\vkobr\OneDrive\Робочий стіл\ПГІ\C#\Forms\lab-11\lab-11\obj\Debug\lab_11.Properties.Resources.resources
+C:\Users\vkobr\OneDrive\Робочий стіл\ПГІ\C#\Forms\lab-11\lab-11\obj\Debug\lab-11.csproj.GenerateResource.cache
+C:\Users\vkobr\OneDrive\Робочий стіл\ПГІ\C#\Forms\lab-11\lab-11\obj\Debug\lab-11.csproj.CoreCompileInputs.cache
+C:\Users\vkobr\OneDrive\Робочий стіл\ПГІ\C#\Forms\lab-11\lab-11\obj\Debug\lab-11.exe
+C:\Users\vkobr\OneDrive\Робочий стіл\ПГІ\C#\Forms\lab-11\lab-11\obj\Debug\lab-11.pdb
